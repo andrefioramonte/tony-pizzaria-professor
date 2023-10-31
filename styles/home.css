@@ -45,3 +45,21 @@
     padding-right: 80px;
 }
 
+@media(max-width:768px){
+
+.home{
+    background-image: url(/img/background-tablet.png);
+    background-position: right top;
+}
+
+.conteudo-container{
+    flex-direction: column-reverse;
+}
+
+
+.destaque-container{
+    display: none;
+}
+
+
+}

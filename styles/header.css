@@ -58,3 +58,23 @@ header .botao{
     color: var(--cor-primaria);
     font-weight: 600;
 }
+
+@media(max-width:768px){
+
+.menu{
+    position: fixed;
+    background-color: var(--cor-primaria);
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    color: var(--cor-branco);
+}
+
+.header .menu ul{
+    justify-content: space-between;
+    color: var(--cor-branco);
+}
+
+}
