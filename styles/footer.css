@@ -149,3 +149,7 @@ footer{
         place-self: end;
     }
 }
+
+footer{
+    padding-bottom: 60px;
+}
