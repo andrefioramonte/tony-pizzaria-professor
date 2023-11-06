@@ -72,9 +72,10 @@ header .botao{
     color: var(--cor-branco);
 }
 
-.header .menu ul{
+header .menu ul{
     justify-content: space-between;
     color: var(--cor-branco);
+    padding-inline: 10px;
 }
 
 }
